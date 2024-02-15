@@ -1,6 +1,4 @@
 /// <reference types="cypress"/>
-const perfil = require('../fixtures/perfil.json')
-
 
 context('funcionalidade login', () => {
 
