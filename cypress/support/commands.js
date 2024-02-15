@@ -30,7 +30,7 @@ Cypress.Commands.add('login', (usuario, senha ) => {
     cy.get('.woocommerce-form > .button').click() 
 })
 
-cypress.Commands.add('preCadastro', (email, senha, nome, sobrenome) =>{
+Cypress.Commands.add('preCadastro', (email, senha, nome, sobrenome) =>{
     cy.get('#reg_email').type(email)
     cy.get('#reg_password').type(senha)
     cy.get(':nth-child(4) > .button').click()
